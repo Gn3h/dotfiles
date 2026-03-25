@@ -1,0 +1,1 @@
+/home/hengster/.config/waybar/styles/v1/media.sh

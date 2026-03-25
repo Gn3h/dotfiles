@@ -1,0 +1,32 @@
+[opener]
+text = [
+  { run = 'code "$@"', orphan = true, for = "linux" },
+]
+
+image = [
+  { run = 'xdg-open "$1"', orphan = true, for = "linux" },
+]
+
+video = [
+  { run = 'xdg-open "$1"', orphan = true, for = "linux" },
+]
+
+audio = [
+  { run = 'xdg-open "$1"', orphan = true, for = "linux" },
+]
+
+pdf = [
+  { run = 'xdg-open "$1"', orphan = true, for = "linux" },
+]
+
+archive = [
+  { run = 'xdg-open "$1"', orphan = true, for = "linux" },
+]
+
+fallback = [
+  { run = 'xdg-open "$1"', orphan = true, for = "linux" },
+]
+
+folder = [
+  { run = 'code "$@"', orphan = true, for = "linux" },
+]

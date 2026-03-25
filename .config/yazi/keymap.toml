@@ -1,0 +1,20 @@
+[manager]
+
+prepend_keymap = [
+  { on = [ "g", "h" ], run = "cd ~", desc = "Go home" },
+  { on = [ "g", "d" ], run = "cd ~/Downloads", desc = "Go downloads" },
+  { on = [ "g", "c" ], run = "cd ~/.config", desc = "Go config" },
+
+  { on = "<C-u>", run = "arrow -10%", desc = "Move up faster" },
+  { on = "<C-d>", run = "arrow 10%", desc = "Move down faster" },
+
+  { on = "<Left>",  run = "leave", desc = "Back" },
+  { on = "<Right>", run = "enter", desc = "Enter" },
+
+  { on = "H", run = "back", desc = "Back previous directory" },
+  { on = "L", run = "forward", desc = "Forward next directory" },
+
+  { on = [ "g", "r" ], run = "cd /", desc = "Go root" },
+
+  { on = "<Enter>", run = 'open', desc = "Open with default opener" },
+]

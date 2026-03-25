@@ -1,0 +1,30 @@
+[manager]
+show_hidden = true
+sort_by = "natural"
+sort_sensitive = false
+sort_reverse = false
+sort_dir_first = true
+linemode = "none"
+mouse_events = ["click", "scroll"]
+show_symlink = true
+
+[preview]
+max_width = 1200
+max_height = 1800
+cache_dir = ""
+image_delay = 30
+
+[opener]
+edit = [
+  { run = 'code "$@"', orphan = true, for = "linux" },
+  { run = 'nvim "$@"', block = true, for = "unix" },
+]
+open = [
+  { run = 'xdg-open "$1"', desc = "Open", orphan = true, for = "linux" }
+]
+extract = [
+  { run = 'ya pub extract --list "$@"', desc = "Extract here", for = "unix" }
+]
+play = [
+  { run = 'xdg-open "$1"', orphan = true, for = "linux" }
+]

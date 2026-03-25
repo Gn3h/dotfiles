@@ -1,0 +1,1 @@
+/home/hengster/.config/waybar/styles/v1.8-hancore/window_pill.py

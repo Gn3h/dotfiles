@@ -1,0 +1,4 @@
+.config/*
+!.config/hypr/
+!.config/yazi/
+!.config/waybar/

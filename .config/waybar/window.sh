@@ -1,0 +1,1 @@
+/home/hengster/.config/waybar/styles/v7-atif/window.sh
