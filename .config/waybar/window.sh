@@ -1,1 +1,1 @@
-/home/hengster/.config/waybar/styles/v7-atif/window.sh
+/home/harryyy/.config/waybar/styles/v7-atif/window.sh

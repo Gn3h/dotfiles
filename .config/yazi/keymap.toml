@@ -1,4 +1,4 @@
-[manager]
+[mgr]
 
 prepend_keymap = [
   { on = [ "g", "h" ], run = "cd ~", desc = "Go home" },
@@ -15,6 +15,8 @@ prepend_keymap = [
   { on = "L", run = "forward", desc = "Forward next directory" },
 
   { on = [ "g", "r" ], run = "cd /", desc = "Go root" },
-
+  
   { on = "<Enter>", run = 'open', desc = "Open with default opener" },
+
+  { on = "T", run = 'shell --orphan "alacritty"', desc = "Open terminal at current dir" },
 ]
